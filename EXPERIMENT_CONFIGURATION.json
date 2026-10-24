@@ -1,0 +1,105 @@
+{
+  "calibration_queries_per_timing_run": 512,
+  "k": 100,
+  "methods": {
+    "complete": "Complete observation generation and mapped curve accumulation",
+    "batch": "Complete generation with retained raw observations for mapping/reuse",
+    "merge": "Positive-hit-event multiway merge",
+    "bits": "Cached bisection in float32 bit order",
+    "value": "Cached bisection in numeric value space",
+    "frontier": "Physical cluster/list-level scheduling"
+  },
+  "single": {
+    "gamma_from_tag": {
+      "01": 0.01,
+      "0": 0
+    },
+    "alpha": 0.05
+  },
+  "alpha4": {
+    "gamma_sequence": [
+      0.01
+    ],
+    "alpha_sequence": [
+      0.2,
+      0.1,
+      0.05,
+      0.01
+    ],
+    "order": "gamma outer loop, alpha inner loop"
+  },
+  "mixed16": {
+    "gamma_sequence": [
+      0.01,
+      0.001,
+      0.1,
+      0
+    ],
+    "alpha_sequence": [
+      0.2,
+      0.1,
+      0.05,
+      0.01
+    ],
+    "order": "gamma outer loop, alpha inner loop"
+  },
+  "fresh": {
+    "methods": [
+      "complete",
+      "frontier"
+    ],
+    "nlist": 1024,
+    "gamma": 0.01,
+    "alpha": 0.05,
+    "fresh_labels_and_certificates": true,
+    "prebuilt_index": true
+  },
+  "main_single_settings": {
+    "datasets": [
+      "sift",
+      "glove"
+    ],
+    "nlist": [
+      256,
+      1024,
+      4096
+    ],
+    "gamma": 0.01
+  },
+  "gamma_zero_settings": {
+    "datasets": [
+      "sift",
+      "glove"
+    ],
+    "nlist": 1024,
+    "gamma": 0
+  },
+  "repetitions_per_cell": 3,
+  "method_order": "Deterministic rotation",
+  "platform": {
+    "cpu": "Intel Core i7-12800HX",
+    "os": "Ubuntu 22.04 under WSL2 on Windows 11",
+    "visible_memory_gib_approx": 7.62,
+    "threads": 1,
+    "physical_file_caches_cleared": false,
+    "observations_span_sessions": true
+  },
+  "distance_scale": {
+    "sift": 1000000,
+    "normalized_glove": 4
+  },
+  "native_upstream_revision": "aa76fbc2e2aaec822ddca525baf4916da46a653b",
+  "native_dependencies_included": false,
+  "native_implementation_drivers_included": false,
+  "final_queries": {
+    "dataset": "glove",
+    "nq": 8976,
+    "already_used": true,
+    "new_tuning_permitted_by_study_protocol": false
+  },
+  "measurement_boundaries": {
+    "active": "Active calibration wall time in seconds, including state construction/destruction, coarse ordering, scans, accounting, scheduling, caching, mapping, and sorting; excludes input loading, warmup, and output.",
+    "joint": "Direct wall time from before index/input loading through calibration-state destruction, including warmup and fresh labels/certificates when requested; excludes index construction and final output."
+  },
+  "release_preparation_new_performance_experiments": 0
+}

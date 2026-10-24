@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this dataset when using the deposited experimental records."
+type: dataset
+title: "Experimental Records for Scan Scheduling for Exact Risk Calibration in Approximate Nearest Neighbor Search"
+version: "1.0.0"
+url: "https://github.com/luxury221/scan-scheduling-risk-calibration-data/releases/tag/v1.0.0"
+repository-code: "https://github.com/luxury221/scan-scheduling-risk-calibration-data"
+authors:
+  - family-names: "Chen"
+    given-names: "Yaoyang"
+    affiliation: "School of Mathematics and Statistics, Chongqing University of Posts and Telecommunications, Chongqing, China"
+    orcid: "https://orcid.org/0009-0006-0444-3417"
+  - family-names: "Zhao"
+    given-names: "Yicheng"
+    affiliation: "School of Mathematics and Statistics, Chongqing University of Posts and Telecommunications, Chongqing, China"
+    orcid: "https://orcid.org/0009-0003-7618-1661"
+  - family-names: "Zhou"
+    given-names: "Xiangjiang"
+    affiliation: "School of Mathematics and Statistics, Chongqing University of Posts and Telecommunications, Chongqing, China"
+    orcid: "https://orcid.org/0009-0000-0912-7970"
+  - family-names: "Li"
+    given-names: "Jiachen"
+    affiliation: "School of Mathematics and Statistics, Chongqing University of Posts and Telecommunications, Chongqing, China"
+    orcid: "https://orcid.org/0009-0006-5119-3369"
+keywords:
+  - approximate nearest neighbor search
+  - risk calibration
+  - scan scheduling
+  - performance evaluation

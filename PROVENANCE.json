@@ -1,0 +1,67 @@
+{
+  "source_description": "Completed author-approved manuscript supplementary materials, prepared 23 October 2026",
+  "preservation": "Every inherited file listed below is copied byte for byte; no experiment rerun or bootstrap was performed for deposit preparation.",
+  "inherited_files": [
+    {
+      "path": "data/aggregate.csv",
+      "sha256": "e82818eac01dd9d1f19d830089d8d6fc1548d277b1d7cc29dee97e97dccef743",
+      "bytes": 25643
+    },
+    {
+      "path": "data/comparisons.csv",
+      "sha256": "5f84d623b0ae85b71764646eae6a320d7152d21a025f193cc2a668398a749f2f",
+      "bytes": 2686
+    },
+    {
+      "path": "data/final-query-risk.csv",
+      "sha256": "5c3b34c236434b743e3e6c1b93bf03e100a7c8cf5a35e80b54da3d1d53ffc1ac",
+      "bytes": 1159
+    },
+    {
+      "path": "data/runs.csv",
+      "sha256": "e8c37a5cceb8ef6f795ed54e1d28fd801e5b2f9a9c8ba91109610b803cd7679b",
+      "bytes": 35317
+    },
+    {
+      "path": "validation/final-query-check-summary.json",
+      "sha256": "e9ccb49420cc744f6b001002b88c99de25c85f0a1bc5e309d7078ce0cf2dda20",
+      "bytes": 3510
+    },
+    {
+      "path": "validation/workload-check-summary.json",
+      "sha256": "d24a019070faa32f0cc8b5765c5617d114c50e4ea778b93749a50f07ebcd10c2",
+      "bytes": 10642
+    },
+    {
+      "path": "plotting/config.py",
+      "sha256": "f61743238ae37aaf3189af139882808a76979d56e4834f875905fd446e4c2af9",
+      "bytes": 163
+    },
+    {
+      "path": "plotting/evidence/demand-calibration-workload-20261023--aggregate.csv",
+      "sha256": "e82818eac01dd9d1f19d830089d8d6fc1548d277b1d7cc29dee97e97dccef743",
+      "bytes": 25643
+    },
+    {
+      "path": "plotting/make_concept_figure.py",
+      "sha256": "fcfa3c3c36df08f4e23b256dd457abf592772886eaee3fa62a8bbff8a99ad954",
+      "bytes": 2634
+    },
+    {
+      "path": "plotting/make_figures.py",
+      "sha256": "f8037cd68855bbcb8cc4df203a752ea363ac6d214eef83dd078fb983e93cc82c",
+      "bytes": 2391
+    },
+    {
+      "path": "plotting/plot_results_archived.py",
+      "sha256": "14e334845263b1d7148f459c9f1b175ff0308d023223f8051d41fdee6609d1c6",
+      "bytes": 2997
+    },
+    {
+      "path": "plotting/RESULTS.json",
+      "sha256": "3b4c8296985eece7ec13b48204ea7c6a0c40eaf04f06fe8ea9aa3091e54f0c0b",
+      "bytes": 109669
+    }
+  ],
+  "archived_validation_notice": "Historical summaries report checks performed on the original study archive. Omitted native inputs and per-query arrays are required to independently rerun those checks. The deposit verifier checks arithmetic and consistency of the supplied records only."
+}
